@@ -7,3 +7,6 @@ CREATE TABLE enrollments (
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   CONSTRAINT unique_enrollment UNIQUE (student_id, class_id)
 );
+
+
+
